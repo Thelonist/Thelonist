@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LON Wallet Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="dashboard-container">
+        <header>
+            <h1>Dashboard</h1>
+        </header>
+
+        <section class="dashboard-grid">
+            <!-- Wallet Info Section -->
+            <a href="wallet-info.html" class="dashboard-card">
+                <div class="card-icon">
+                    <span class="material-icons">account_balance_wallet</span>
+                </div>
+                <div class="card-info">
+                    <h3>Wallet Info</h3>
+                    <p>View your wallet details</p>
+                </div>
+            </a>
+
+            <!-- Transaction History Section -->
+            <a href="transaction-history.html" class="dashboard-card">
+                <div class="card-icon">
+                    <span class="material-icons">history</span>
+                </div>
+                <div class="card-info">
+                    <h3>Transaction History</h3>
+                    <p>Review your recent transactions</p>
+                </div>
+            </a>
+
+            <!-- Transfer Tokens Section -->
+            <a href="transfer.html" class="dashboard-card">
+                <div class="card-icon">
+                    <span class="material-icons">send</span>
+                </div>
+                <div class="card-info">
+                    <h3>Transfer Tokens</h3>
+                    <p>Send tokens to others</p>
+                </div>
+            </a>
+
+            <!-- Withdraw Tokens Section -->
+            <a href="withdraw.html" class="dashboard-card">
+                <div class="card-icon">
+                    <span class="material-icons">attach_money</span>
+                </div>
+                <div class="card-info">
+                    <h3>Withdraw Tokens</h3>
+                    <p>Withdraw tokens to an address</p>
+                </div>
+            </a>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
